@@ -64,6 +64,9 @@ jobs:
     
     docker:
       runs-on: ubuntu-latest
+      steps:
+
+      - run: echo "Hello world"
               
     dev-deploy:
       needs: docker
